@@ -1,0 +1,1 @@
+﻿alert("You need a folder called \"export\" on your desktop\nor this script will not work");for(var i = 0; i < app.documents.length;i++){var myFile = File("~/Desktop/export/myTest" + i +".pdf");var myDoc = app.documents.item(i);var myPage = myDoc.pages.item(0);myDoc.exportFile(ExportFormat.PDF_TYPE, myFile, false);}
