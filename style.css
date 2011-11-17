@@ -5,7 +5,7 @@ font-family: 'Gentium Basic', serif;
   color: #000000;
 }
 #container {
-  margin: 0 auto;
+  margin: 70px auto 0;
   width: 700px;
 }
 h1 { font-size: 3.8em; color: #000000; margin-bottom: 3px; }
